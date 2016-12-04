@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="恋勉をはじめる"/>
                                 <connections>
-                                    <segue destination="7xO-SF-Wj8" kind="modal" id="Up2-9N-xOo"/>
+                                    <segue destination="7xO-SF-Wj8" kind="show" id="TW7-6v-UwJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,12 +67,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="登録完了"/>
                                 <connections>
-                                    <segue destination="Ef9-NM-GFe" kind="modal" id="vgw-lQ-8op"/>
+                                    <segue destination="Ef9-NM-GFe" kind="show" id="Aga-36-Gjk"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Z1s-Pc-naM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhs-XO-lyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,12 +98,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BzR-RI-dRz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-M6-kMM">
                                 <rect key="frame" x="328" y="617" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
-                                    <segue destination="2FH-nA-wLe" kind="modal" id="w00-Fn-CE0"/>
+                                    <segue destination="2FH-nA-wLe" kind="show" id="Xue-8f-r4m"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -134,7 +135,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="彼と恋勉する"/>
                                 <connections>
-                                    <segue destination="Q7Z-bm-qBt" kind="modal" id="Xwg-F5-mXx"/>
+                                    <segue destination="Q7Z-bm-qBt" kind="show" id="Xwg-F5-mXx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -170,7 +171,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
-                                    <segue destination="2FH-nA-wLe" kind="modal" id="ltF-D8-boP"/>
+                                    <segue destination="2FH-nA-wLe" kind="show" id="ltF-D8-boP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -206,7 +207,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
-                                    <segue destination="2FH-nA-wLe" kind="modal" id="WiX-2o-0Um"/>
+                                    <segue destination="2FH-nA-wLe" kind="show" id="WiX-2o-0Um"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -242,7 +243,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
-                                    <segue destination="2FH-nA-wLe" kind="modal" id="IG2-xX-H9s"/>
+                                    <segue destination="2FH-nA-wLe" kind="show" id="IG2-xX-H9s"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -278,7 +279,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
-                                    <segue destination="2FH-nA-wLe" kind="modal" id="GHF-iJ-9Xa"/>
+                                    <segue destination="2FH-nA-wLe" kind="show" id="GHF-iJ-9Xa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -331,7 +332,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="彼と恋勉する"/>
                                 <connections>
-                                    <segue destination="Q7Z-bm-qBt" kind="modal" id="3YJ-RU-OjX"/>
+                                    <segue destination="Q7Z-bm-qBt" kind="show" id="3YJ-RU-OjX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -364,7 +365,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="彼と恋勉する"/>
                                 <connections>
-                                    <segue destination="Q7Z-bm-qBt" kind="modal" id="44m-Rz-Ifc"/>
+                                    <segue destination="Q7Z-bm-qBt" kind="show" id="44m-Rz-Ifc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -402,7 +403,7 @@
         <image name="img003.jpg" width="567" height="1005"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="44m-Rz-Ifc"/>
         <segue reference="IG2-xX-H9s"/>
-        <segue reference="3YJ-RU-OjX"/>
     </inferredMetricsTieBreakers>
 </document>
