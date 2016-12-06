@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,16 +22,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOP画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ete-od-aUW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOP画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ete-od-aUW">
                                 <rect key="frame" x="153" y="323" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-Mp-T7k">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-Mp-T7k">
                                 <rect key="frame" x="133" y="446" width="108" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="恋勉をはじめる"/>
                                 <connections>
                                     <segue destination="7xO-SF-Wj8" kind="show" id="TW7-6v-UwJ"/>
@@ -38,6 +37,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ete-od-aUW" firstAttribute="centerX" secondItem="Jmi-Mp-T7k" secondAttribute="centerX" id="PTa-WS-XFz"/>
+                            <constraint firstItem="ete-od-aUW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WAl-ZI-wRH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jmi-Mp-T7k" secondAttribute="bottom" constant="191" id="XY0-2T-kNt"/>
+                            <constraint firstItem="ete-od-aUW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x5S-NR-4Pp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -56,16 +61,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="プロフィール登録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2E-bz-W7b">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プロフィール登録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2E-bz-W7b">
                                 <rect key="frame" x="118" y="323" width="139" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpc-xC-mRL">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpc-xC-mRL">
                                 <rect key="frame" x="156" y="617" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="登録完了"/>
                                 <connections>
                                     <segue destination="Ef9-NM-GFe" kind="show" id="Aga-36-Gjk"/>
@@ -73,6 +76,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qpc-xC-mRL" firstAttribute="centerX" secondItem="aS1-NC-yCg" secondAttribute="centerX" id="8XR-8B-CGB"/>
+                            <constraint firstAttribute="bottom" secondItem="qpc-xC-mRL" secondAttribute="bottom" constant="20" symbolic="YES" id="FOE-n9-BEv"/>
+                            <constraint firstItem="t2E-bz-W7b" firstAttribute="centerX" secondItem="qpc-xC-mRL" secondAttribute="centerX" id="Xjv-OX-Bbp"/>
+                            <constraint firstItem="t2E-bz-W7b" firstAttribute="centerY" secondItem="aS1-NC-yCg" secondAttribute="centerY" id="chR-oU-Lx5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Z1s-Pc-naM"/>
                 </viewController>
@@ -92,16 +101,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ストーリー①" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzQ-bk-a0x">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ストーリー①" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzQ-bk-a0x">
                                 <rect key="frame" x="137" y="323" width="102" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-M6-kMM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-M6-kMM">
                                 <rect key="frame" x="328" y="617" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="Xue-8f-r4m"/>
@@ -109,6 +116,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bzQ-bk-a0x" firstAttribute="centerY" secondItem="YsT-Ul-2pp" secondAttribute="centerY" id="JpM-zB-RJW"/>
+                            <constraint firstAttribute="bottom" secondItem="baQ-M6-kMM" secondAttribute="bottom" constant="20" symbolic="YES" id="gIP-m2-Y4m"/>
+                            <constraint firstItem="baQ-M6-kMM" firstAttribute="trailing" secondItem="YsT-Ul-2pp" secondAttribute="trailingMargin" id="gne-G9-aHi"/>
+                            <constraint firstItem="bzQ-bk-a0x" firstAttribute="centerX" secondItem="YsT-Ul-2pp" secondAttribute="centerX" id="pkL-Pm-S2F"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Yd-cN-CNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -127,13 +140,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img002.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wCN-k9-IzX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img002.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wCN-k9-IzX">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXm-eb-fte">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXm-eb-fte">
                                 <rect key="frame" x="141" y="318" width="92" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="彼と恋勉する"/>
                                 <connections>
                                     <segue destination="Q7Z-bm-qBt" kind="show" id="Xwg-F5-mXx"/>
@@ -141,6 +152,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wCN-k9-IzX" firstAttribute="centerY" secondItem="rXm-eb-fte" secondAttribute="centerY" id="1Jb-Bd-YaX"/>
+                            <constraint firstItem="wCN-k9-IzX" firstAttribute="leading" secondItem="SfP-em-kie" secondAttribute="leading" id="Lp3-UF-5mN"/>
+                            <constraint firstItem="wCN-k9-IzX" firstAttribute="top" secondItem="SfP-em-kie" secondAttribute="top" id="Mec-jC-5kL"/>
+                            <constraint firstItem="wCN-k9-IzX" firstAttribute="centerX" secondItem="rXm-eb-fte" secondAttribute="centerX" id="iBT-rb-H0j"/>
+                            <constraint firstAttribute="trailing" secondItem="wCN-k9-IzX" secondAttribute="trailing" id="mQh-91-7Kg"/>
+                            <constraint firstAttribute="bottom" secondItem="wCN-k9-IzX" secondAttribute="bottom" id="oEq-G1-7rr"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="HUx-Y8-kv2"/>
                 </viewController>
@@ -160,16 +179,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="スケジュール" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMV-4m-kGd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="スケジュール" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMV-4m-kGd">
                                 <rect key="frame" x="135" y="323" width="104" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-11-N60">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-11-N60">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="ltF-D8-boP"/>
@@ -177,6 +194,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fF-11-N60" firstAttribute="top" secondItem="PIn-th-kdC" secondAttribute="bottom" id="2Lh-UJ-yT7"/>
+                            <constraint firstItem="dMV-4m-kGd" firstAttribute="centerY" secondItem="Ydl-Uo-Zql" secondAttribute="centerY" id="9Vp-GT-ahd"/>
+                            <constraint firstItem="dMV-4m-kGd" firstAttribute="centerX" secondItem="Ydl-Uo-Zql" secondAttribute="centerX" id="iJE-TP-52d"/>
+                            <constraint firstItem="2fF-11-N60" firstAttribute="leading" secondItem="Ydl-Uo-Zql" secondAttribute="leadingMargin" id="u9k-fh-TWm"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="DRg-ec-gDe"/>
                 </viewController>
@@ -196,16 +219,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="記録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udP-Fk-xDU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="記録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udP-Fk-xDU">
                                 <rect key="frame" x="170" y="323" width="35" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igg-AI-vwK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igg-AI-vwK">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="WiX-2o-0Um"/>
@@ -213,6 +234,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="igg-AI-vwK" firstAttribute="top" secondItem="5NE-HX-9lc" secondAttribute="bottom" id="YSM-Sv-u4W"/>
+                            <constraint firstItem="udP-Fk-xDU" firstAttribute="centerX" secondItem="Ilh-lV-Er7" secondAttribute="centerX" id="f0w-Ku-uM0"/>
+                            <constraint firstItem="igg-AI-vwK" firstAttribute="leading" secondItem="Ilh-lV-Er7" secondAttribute="leadingMargin" id="xS9-EF-Xby"/>
+                            <constraint firstItem="udP-Fk-xDU" firstAttribute="centerY" secondItem="Ilh-lV-Er7" secondAttribute="centerY" id="xV2-7d-Z2c"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="uzt-Bl-1eP"/>
                 </viewController>
@@ -232,16 +259,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="課金" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzM-xZ-Z8W">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="課金" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzM-xZ-Z8W">
                                 <rect key="frame" x="170" y="323" width="35" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKX-p4-1v2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKX-p4-1v2">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="IG2-xX-H9s"/>
@@ -249,6 +274,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YzM-xZ-Z8W" firstAttribute="centerX" secondItem="mrK-1g-f1A" secondAttribute="centerX" id="8fn-fp-bSo"/>
+                            <constraint firstItem="vKX-p4-1v2" firstAttribute="leading" secondItem="mrK-1g-f1A" secondAttribute="leadingMargin" id="MOX-wf-jG7"/>
+                            <constraint firstItem="vKX-p4-1v2" firstAttribute="top" secondItem="dQ9-7R-ati" secondAttribute="bottom" id="XOd-7j-AjT"/>
+                            <constraint firstItem="YzM-xZ-Z8W" firstAttribute="centerY" secondItem="mrK-1g-f1A" secondAttribute="centerY" id="jeK-jt-Wxm"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="QtM-vd-xIK"/>
                 </viewController>
@@ -268,16 +299,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="恋勉画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abh-Nv-xqa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恋勉画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abh-Nv-xqa">
                                 <rect key="frame" x="152" y="323" width="70" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vi-Cp-wY2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vi-Cp-wY2">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="もどる"/>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="GHF-iJ-9Xa"/>
@@ -285,6 +314,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Vi-Cp-wY2" firstAttribute="leading" secondItem="GMn-wQ-PGH" secondAttribute="leadingMargin" id="07V-EW-olU"/>
+                            <constraint firstItem="1Vi-Cp-wY2" firstAttribute="top" secondItem="QBh-Ih-gmD" secondAttribute="bottom" id="4JZ-6D-af4"/>
+                            <constraint firstItem="abh-Nv-xqa" firstAttribute="centerY" secondItem="GMn-wQ-PGH" secondAttribute="centerY" id="FM6-y1-wTZ"/>
+                            <constraint firstItem="abh-Nv-xqa" firstAttribute="centerX" secondItem="GMn-wQ-PGH" secondAttribute="centerX" id="luI-l7-Jwc"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="2Zq-3w-PtK"/>
                 </viewController>
@@ -324,13 +359,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img003.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-C8-wnt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img003.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-C8-wnt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGi-3W-zal">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGi-3W-zal">
                                 <rect key="frame" x="141" y="318" width="92" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="彼と恋勉する"/>
                                 <connections>
                                     <segue destination="Q7Z-bm-qBt" kind="show" id="3YJ-RU-OjX"/>
@@ -338,6 +371,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1LJ-C8-wnt" firstAttribute="top" secondItem="oBi-4o-R49" secondAttribute="top" id="Hw6-5D-HWD"/>
+                            <constraint firstAttribute="bottom" secondItem="1LJ-C8-wnt" secondAttribute="bottom" id="JiJ-bC-ieg"/>
+                            <constraint firstAttribute="trailing" secondItem="1LJ-C8-wnt" secondAttribute="trailing" id="Ps9-Df-kQp"/>
+                            <constraint firstItem="1LJ-C8-wnt" firstAttribute="centerX" secondItem="NGi-3W-zal" secondAttribute="centerX" id="Sih-4y-T2I"/>
+                            <constraint firstItem="1LJ-C8-wnt" firstAttribute="centerY" secondItem="NGi-3W-zal" secondAttribute="centerY" id="VaY-bs-LXz"/>
+                            <constraint firstItem="1LJ-C8-wnt" firstAttribute="leading" secondItem="oBi-4o-R49" secondAttribute="leading" id="wuo-eU-W5N"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="zpp-tI-wqz"/>
                 </viewController>
@@ -357,13 +398,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img001.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ehd-Rf-dVp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img001.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ehd-Rf-dVp">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmS-YC-oEM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmS-YC-oEM">
                                 <rect key="frame" x="141" y="318" width="92" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="彼と恋勉する"/>
                                 <connections>
                                     <segue destination="Q7Z-bm-qBt" kind="show" id="44m-Rz-Ifc"/>
@@ -371,6 +410,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ehd-Rf-dVp" firstAttribute="top" secondItem="Xyg-G4-F9C" secondAttribute="top" id="4LH-bq-T6y"/>
+                            <constraint firstAttribute="bottom" secondItem="ehd-Rf-dVp" secondAttribute="bottom" id="LrD-6B-16D"/>
+                            <constraint firstItem="ehd-Rf-dVp" firstAttribute="centerY" secondItem="UmS-YC-oEM" secondAttribute="centerY" id="bfJ-ma-7Fh"/>
+                            <constraint firstItem="ehd-Rf-dVp" firstAttribute="centerX" secondItem="UmS-YC-oEM" secondAttribute="centerX" id="uk8-lF-QQl"/>
+                            <constraint firstAttribute="trailing" secondItem="ehd-Rf-dVp" secondAttribute="trailing" id="vsA-mO-Fge"/>
+                            <constraint firstItem="ehd-Rf-dVp" firstAttribute="leading" secondItem="Xyg-G4-F9C" secondAttribute="leading" id="wSe-79-On2"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="M5b-LK-yRa"/>
                 </viewController>
@@ -404,7 +451,7 @@
         <image name="img003.jpg" width="567" height="1005"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="44m-Rz-Ifc"/>
-        <segue reference="IG2-xX-H9s"/>
+        <segue reference="3YJ-RU-OjX"/>
+        <segue reference="ltF-D8-boP"/>
     </inferredMetricsTieBreakers>
 </document>

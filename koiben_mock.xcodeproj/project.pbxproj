@@ -12,9 +12,9 @@
 		DB9C9E421DF40F0100DBCA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9C9E401DF40F0100DBCA47 /* Main.storyboard */; };
 		DB9C9E441DF40F0100DBCA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9C9E431DF40F0100DBCA47 /* Assets.xcassets */; };
 		DB9C9E471DF40F0100DBCA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9C9E451DF40F0100DBCA47 /* LaunchScreen.storyboard */; };
-		DB9C9E521DF40F2300DBCA47 /* img001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9C9E4F1DF40F2300DBCA47 /* img001.jpg */; };
-		DB9C9E531DF40F2300DBCA47 /* img002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9C9E501DF40F2300DBCA47 /* img002.jpg */; };
-		DB9C9E541DF40F2300DBCA47 /* img003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9C9E511DF40F2300DBCA47 /* img003.jpg */; };
+		DBAEE3251DF5A3E30007F222 /* img001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAEE3221DF5A3E30007F222 /* img001.jpg */; };
+		DBAEE3261DF5A3E30007F222 /* img002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAEE3231DF5A3E30007F222 /* img002.jpg */; };
+		DBAEE3271DF5A3E30007F222 /* img003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAEE3241DF5A3E30007F222 /* img003.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		DB9C9E431DF40F0100DBCA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9C9E461DF40F0100DBCA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9C9E481DF40F0100DBCA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB9C9E4F1DF40F2300DBCA47 /* img001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img001.jpg; sourceTree = "<group>"; };
-		DB9C9E501DF40F2300DBCA47 /* img002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img002.jpg; sourceTree = "<group>"; };
-		DB9C9E511DF40F2300DBCA47 /* img003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img003.jpg; sourceTree = "<group>"; };
+		DBAEE3221DF5A3E30007F222 /* img001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img001.jpg; sourceTree = "<group>"; };
+		DBAEE3231DF5A3E30007F222 /* img002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img002.jpg; sourceTree = "<group>"; };
+		DBAEE3241DF5A3E30007F222 /* img003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img003.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		DB9C9E301DF40F0100DBCA47 = {
 			isa = PBXGroup;
 			children = (
-				DB9C9E4E1DF40F2300DBCA47 /* main_img */,
+				DBAEE3211DF5A3E30007F222 /* main_img */,
 				DB9C9E3B1DF40F0100DBCA47 /* koiben_mock */,
 				DB9C9E3A1DF40F0100DBCA47 /* Products */,
 			);
@@ -71,12 +71,12 @@
 			path = koiben_mock;
 			sourceTree = "<group>";
 		};
-		DB9C9E4E1DF40F2300DBCA47 /* main_img */ = {
+		DBAEE3211DF5A3E30007F222 /* main_img */ = {
 			isa = PBXGroup;
 			children = (
-				DB9C9E4F1DF40F2300DBCA47 /* img001.jpg */,
-				DB9C9E501DF40F2300DBCA47 /* img002.jpg */,
-				DB9C9E511DF40F2300DBCA47 /* img003.jpg */,
+				DBAEE3221DF5A3E30007F222 /* img001.jpg */,
+				DBAEE3231DF5A3E30007F222 /* img002.jpg */,
+				DBAEE3241DF5A3E30007F222 /* img003.jpg */,
 			);
 			path = main_img;
 			sourceTree = "<group>";
@@ -141,11 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9C9E471DF40F0100DBCA47 /* LaunchScreen.storyboard in Resources */,
-				DB9C9E541DF40F2300DBCA47 /* img003.jpg in Resources */,
-				DB9C9E531DF40F2300DBCA47 /* img002.jpg in Resources */,
+				DBAEE3271DF5A3E30007F222 /* img003.jpg in Resources */,
+				DBAEE3261DF5A3E30007F222 /* img002.jpg in Resources */,
 				DB9C9E441DF40F0100DBCA47 /* Assets.xcassets in Resources */,
 				DB9C9E421DF40F0100DBCA47 /* Main.storyboard in Resources */,
-				DB9C9E521DF40F2300DBCA47 /* img001.jpg in Resources */,
+				DBAEE3251DF5A3E30007F222 /* img001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +319,7 @@
 				DB9C9E4D1DF40F0100DBCA47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
