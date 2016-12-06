@@ -145,7 +145,10 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXm-eb-fte">
                                 <rect key="frame" x="141" y="318" width="92" height="30"/>
-                                <state key="normal" title="彼と恋勉する"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="彼と恋勉する">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="Q7Z-bm-qBt" kind="show" id="Xwg-F5-mXx"/>
                                 </connections>
@@ -364,7 +367,10 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGi-3W-zal">
                                 <rect key="frame" x="141" y="318" width="92" height="30"/>
-                                <state key="normal" title="彼と恋勉する"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="彼と恋勉する">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="Q7Z-bm-qBt" kind="show" id="3YJ-RU-OjX"/>
                                 </connections>
@@ -403,7 +409,10 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmS-YC-oEM">
                                 <rect key="frame" x="141" y="318" width="92" height="30"/>
-                                <state key="normal" title="彼と恋勉する"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="彼と恋勉する">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="Q7Z-bm-qBt" kind="show" id="44m-Rz-Ifc"/>
                                 </connections>
