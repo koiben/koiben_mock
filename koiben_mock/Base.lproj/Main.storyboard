@@ -29,8 +29,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-Mp-T7k">
-                                <rect key="frame" x="133" y="446" width="108" height="30"/>
-                                <state key="normal" title="恋勉をはじめる"/>
+                                <rect key="frame" x="141" y="446" width="92" height="30"/>
+                                <state key="normal" title="恋勉を始める"/>
                                 <connections>
                                     <segue destination="7xO-SF-Wj8" kind="show" id="TW7-6v-UwJ"/>
                                 </connections>
