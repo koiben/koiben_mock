@@ -30,7 +30,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-Mp-T7k">
                                 <rect key="frame" x="141" y="446" width="92" height="30"/>
-                                <state key="normal" title="恋勉を始める"/>
+                                <state key="normal" title="恋勉を始める">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="7xO-SF-Wj8" kind="show" id="TW7-6v-UwJ"/>
                                 </connections>
@@ -69,7 +71,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpc-xC-mRL">
                                 <rect key="frame" x="156" y="617" width="62" height="30"/>
-                                <state key="normal" title="登録完了"/>
+                                <state key="normal" title="登録完了">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="Ef9-NM-GFe" kind="show" id="Aga-36-Gjk"/>
                                 </connections>
@@ -109,7 +113,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-M6-kMM">
                                 <rect key="frame" x="328" y="617" width="31" height="30"/>
-                                <state key="normal" title="次へ"/>
+                                <state key="normal" title="次へ">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="Xue-8f-r4m"/>
                                 </connections>
@@ -190,7 +196,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-11-N60">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <state key="normal" title="もどる"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="ltF-D8-boP"/>
                                 </connections>
@@ -230,7 +238,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igg-AI-vwK">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <state key="normal" title="もどる"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="WiX-2o-0Um"/>
                                 </connections>
@@ -270,7 +280,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKX-p4-1v2">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <state key="normal" title="もどる"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="IG2-xX-H9s"/>
                                 </connections>
@@ -310,7 +322,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vi-Cp-wY2">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
-                                <state key="normal" title="もどる"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="2FH-nA-wLe" kind="show" id="GHF-iJ-9Xa"/>
                                 </connections>
@@ -460,7 +474,8 @@
         <image name="img003.jpg" width="567" height="1005"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3YJ-RU-OjX"/>
-        <segue reference="ltF-D8-boP"/>
+        <segue reference="44m-Rz-Ifc"/>
+        <segue reference="IG2-xX-H9s"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
 </document>
